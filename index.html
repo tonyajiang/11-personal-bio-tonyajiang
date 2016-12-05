@@ -223,7 +223,7 @@ function submitForm(event) {
           console.log(this.responseText);
       }
   };
-  xhttp2.open("POST", "http://cse104.kraigh.com/recommendations", true);
+  xhttp2.open("POST", "https://cse104.kraigh.com/recommendations", true);
   xhttp2.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xhttp2.send("api_key="+api_key+"&name="+name+"&text="+comment);
   }
